@@ -1,5 +1,5 @@
 def roll_call_dwarves(dwarves)
-  dwarves.collect { |names| puts names } #collect returns new array
+  dwarves.each { |names| puts names }
 end
 
 def summon_captain_planet# code an argument here
